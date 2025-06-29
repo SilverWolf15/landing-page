@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-family: 'Roboto',Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -79,6 +79,7 @@ button {
 .div1-content-text {
     display: flex;
     flex-wrap: wrap;
+    padding-right: 280px;
 }
 
 .div1-content-image {
@@ -90,6 +91,30 @@ button {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+}
+
+.div3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px 200px;
+    flex-direction: column;
+}
+
+.div3-quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.div3-author {
+    display: flex;
+    flex-direction: row-reverse;
+    font-weight: 600;
+    min-width: 100vh;
+    font-size: 24px;
 }
 
 .div4 {
