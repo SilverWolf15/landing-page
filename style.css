@@ -56,7 +56,7 @@ button {
     padding-top: 12px;
     padding-left: 128px;
     padding-right: 128px;
-    padding-bottom: 72px;
+    padding-bottom: 72px;   
 }
 
 .header {
@@ -83,13 +83,44 @@ button {
 
 .div1-content-image {
     display: flex;
-    width: 600px;
-    height: 200px;
+    width: 500px;
+    height: 225px;
     color: #d5d7db;
     background-color: #70747c;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+}
+
+.div4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 72px 128px;
+}
+
+.div4-content {
+    background-color: #388ef6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    border-radius: 5px;
+    padding: 30px 100px;
+}
+
+.div4-content-text p#heading {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.div4-button button{
+    border: 2px solid white;
+    height: 30px;
+    font-weight: 600;
 }
 
 .footer {
@@ -98,6 +129,5 @@ button {
     justify-content: center;
     align-items: center;
     min-height: 100px;
-    margin-top: auto;
     color: #f9faf8;
 }
